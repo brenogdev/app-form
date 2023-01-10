@@ -6,6 +6,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 
 import * as Styled from "./styles";
 import { registerSchema } from "../../schemas/registerSchema";
+import { Alert } from "react-native";
 
 type FormData = {
   name: string;
